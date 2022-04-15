@@ -1,0 +1,80 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.box-shadow-generator {
+  font-family: "Roboto", sans-serif;
+  width: 800px;
+  box-shadow: 0 0 40px -8px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.box-shadow-generator,
+.box-shadow-generator * {
+  box-sizing: border-box;
+}
+
+.box-shadow-generator .controls {
+  padding: 8px;
+  width: 300px;
+}
+
+.box-shadow-generator .controls h2 {
+  font-size: 18px;
+  margin: 4px 0;
+  font-weight: normal;
+}
+
+.box-shadow-generator .controls .group {
+  padding: 12px 24px;
+  margin: 8px 0;
+}
+
+.box-shadow-generator .controls .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-shadow-generator .controls .control {
+  width: 100%;
+}
+
+.box-shadow-generator .controls input[type="color"] {
+  width: 60px;
+  height: 30px;
+}
+
+.box-shadow-generator .result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  flex: 1;
+}
+
+.box-shadow-generator .result .box {
+  width: 240px;
+  height: 240px;
+  background: #fff;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+  margin-bottom: 50px;
+}
+
+.box-shadow-generator .result .generate-code-btn {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  padding: 12px 48px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  background: #e63946;
+  color: #fff;
+  cursor: pointer;
+}
